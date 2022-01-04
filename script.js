@@ -1,4 +1,4 @@
-let APIKEY = '6fb760be9510ff93b6e7d18208a55b91';
+let APIKEY = '';
 let cityName = document.getElementById("cityName");
 let weatherTime = document.getElementById("weatherTime");
 let weatherDay = document.getElementById("weatherDay");
