@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="weather-container">
+        <div class="weather-header">
+            <p><span id="weatherDay">Thursday</span> <span id="weatherTime">10:40</span> PM</p>
+            <h2 id="cityName">Timisoara</h2>
+        </div>
+
+        <div class="weather-body">
+            <div class="weather-temp-icon">
+                <img src="./icons/cloud.svg" id="weatherIcon" alt="cloud">
+            </div>
+
+            <div class="weather-temp">
+                <div class="weather-temp-main">
+                    <div class="weather-temp-value">
+                        <h1 class="weather-temp-actual-value" id="tempValue">9</h1>
+                    </div>
+                    <div class="weather-temp-measure">
+                        <p> °C | <span class="fahreinheit-value">°F</span><br>
+                            MIN 3°C
+                        </p>
+                    </div>
+                </div>
+
+                <div class="weather-values">
+                    <div class="weather-pressure" >
+                       <span id="weatherPressure">93</span>%
+                    </div>
+                    <div class="weather-humidity" id="weatherHumidity">
+                       <span id="weatherHumidity">5</span>km/h
+                    </div>
+                    <div class="weather-wind" id="weatherWind">
+                        <span id="weatherWind">93</span>%
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-forecast">
+            <!-- <div class="weather-forecast-day-1">
+                <h3>Fri</h3>
+                <img src="./icons/snow.svg" alt="snow">
+                <p>15°/4°</p>
+            </div>
+
+            <div class="weather-forecast-day-2">
+                <h3>Fri</h3>
+                <img src="./icons/snow.svg" alt="snow">
+                <p>15°/4°</p>
+            </div>
+
+            <div class="weather-forecast-day-3">
+                <h3>Fri</h3>
+                <img src="./icons/snow.svg" alt="snow">
+                <p>15°/4°</p>
+            </div>
+
+            <div class="weather-forecast-day-4">
+                <h3>Fri</h3>
+                <img src="./icons/snow.svg" alt="snow">
+                <p>15°/4°</p>
+            </div>
+
+            <div class="weather-forecast-day-5">
+                <h3>Fri</h3>
+                <img src="./icons/snow.svg" alt="snow">
+                <p>15°/4°</p>
+            </div> -->
+
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
